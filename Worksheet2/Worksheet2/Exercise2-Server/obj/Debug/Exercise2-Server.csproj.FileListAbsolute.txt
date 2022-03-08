@@ -1,0 +1,8 @@
+C:\dev\SI\Worksheet2\Worksheet2\Exercise2-Server\bin\Debug\Exercise2-Server.exe.config
+C:\dev\SI\Worksheet2\Worksheet2\Exercise2-Server\bin\Debug\Exercise2-Server.exe
+C:\dev\SI\Worksheet2\Worksheet2\Exercise2-Server\bin\Debug\Exercise2-Server.pdb
+C:\dev\SI\Worksheet2\Worksheet2\Exercise2-Server\obj\Debug\Exercise2-Server.csproj.AssemblyReference.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise2-Server\obj\Debug\Exercise2-Server.csproj.SuggestedBindingRedirects.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise2-Server\obj\Debug\Exercise2-Server.csproj.CoreCompileInputs.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise2-Server\obj\Debug\Exercise2-Server.exe
+C:\dev\SI\Worksheet2\Worksheet2\Exercise2-Server\obj\Debug\Exercise2-Server.pdb

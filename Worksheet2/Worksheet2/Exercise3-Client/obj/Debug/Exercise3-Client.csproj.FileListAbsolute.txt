@@ -1,0 +1,10 @@
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\bin\Debug\Exercise3-Client.exe.config
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\bin\Debug\Exercise3-Client.exe
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\bin\Debug\Exercise3-Client.pdb
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\bin\Debug\ProtocolSI.dll
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\obj\Debug\Exercise3-Client.csproj.AssemblyReference.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\obj\Debug\Exercise3-Client.csproj.SuggestedBindingRedirects.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\obj\Debug\Exercise3-Client.csproj.CoreCompileInputs.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\obj\Debug\Exercise3-Client.csproj.CopyComplete
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\obj\Debug\Exercise3-Client.exe
+C:\dev\SI\Worksheet2\Worksheet2\Exercise3-Client\obj\Debug\Exercise3-Client.pdb
