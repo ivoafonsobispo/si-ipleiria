@@ -1,0 +1,12 @@
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\bin\Debug\Exercise1.exe.config
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\bin\Debug\Exercise1.exe
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\bin\Debug\Exercise1.pdb
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\obj\Debug\Exercise1.csproj.AssemblyReference.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\obj\Debug\Exercise1.csproj.SuggestedBindingRedirects.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\obj\Debug\Exercise1.Properties.Resources.resources
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\obj\Debug\Exercise1.csproj.GenerateResource.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\obj\Debug\Exercise1.csproj.CoreCompileInputs.cache
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\obj\Debug\Exercise1.exe
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\obj\Debug\Exercise1.pdb
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\bin\Debug\security.jpg
+C:\dev\SI\Worksheet2\Worksheet2\Exercise1\obj\Debug\Exercise1.Form1.resources
