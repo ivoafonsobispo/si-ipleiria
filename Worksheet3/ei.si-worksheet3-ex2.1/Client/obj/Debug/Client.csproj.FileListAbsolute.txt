@@ -1,0 +1,22 @@
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\bin\Debug\Client.exe.config
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\bin\Debug\Client.exe
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\bin\Debug\Client.pdb
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\bin\Debug\ProtocolSI.dll
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\bin\Debug\SymmetricsSI.dll
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.exe
+C:\Users\ivoafonsobispo\Downloads\03 - Symmetric Criptography-20220315\EI.SI-Worksheet_03 - SymmetricCryptography\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.pdb
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\bin\Debug\Client.exe.config
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\bin\Debug\Client.exe
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\bin\Debug\Client.pdb
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\bin\Debug\ProtocolSI.dll
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\bin\Debug\SymmetricsSI.dll
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.exe
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex2.1\Client\obj\Debug\Client.pdb

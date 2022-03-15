@@ -1,0 +1,11 @@
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\bin\Debug\ei.si-worksheet3-ex4.1.exe.config
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\bin\Debug\ei.si-worksheet3-ex4.1.exe
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\bin\Debug\ei.si-worksheet3-ex4.1.pdb
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\obj\Debug\ei.si-worksheet3-ex4.1.csproj.AssemblyReference.cache
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\obj\Debug\ei.si-worksheet3-ex4.1.csproj.SuggestedBindingRedirects.cache
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\obj\Debug\ei_si_worksheet3.Form1.resources
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\obj\Debug\ei_si_worksheet3.Properties.Resources.resources
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\obj\Debug\ei.si-worksheet3-ex4.1.csproj.GenerateResource.cache
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\obj\Debug\ei.si-worksheet3-ex4.1.csproj.CoreCompileInputs.cache
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\obj\Debug\ei.si-worksheet3-ex4.1.exe
+C:\Development\SI\Worksheet3\ei.si-worksheet3-ex4.1\ei.si-worksheet3-ex4.1\obj\Debug\ei.si-worksheet3-ex4.1.pdb
