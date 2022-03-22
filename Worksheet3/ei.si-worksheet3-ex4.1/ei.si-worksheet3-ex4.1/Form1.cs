@@ -30,7 +30,7 @@ namespace ei_si_worksheet3
         {
             // Altera plain text da text box para binario
             byte[] plainText = Encoding.UTF8.GetBytes(textBoxTextToEncrypt.Text);
-            if (comboBoxAlgorithm.SelectedIndex == 1)
+            if (comboBoxAlgorithm.SelectedIndex == 0)
             {
                 // Instanciar Algortimo
                 AesCryptoServiceProvider algorithm = new AesCryptoServiceProvider();
@@ -54,10 +54,10 @@ namespace ei_si_worksheet3
                         byte[] cipherText = memoryStream.ToArray();
 
                         // Transforma-mos o texto encriptado que esta em binario para Base64 para tirar error futuro de dados
-                        textBoxTextToEncrypt.Text = Convert.ToBase64String(cipherText);
+                        textboxEncryptedText.Text = Convert.ToBase64String(cipherText);
                     }
                 }
-            } else if (comboBoxAlgorithm.SelectedIndex == 2)
+            } else if (comboBoxAlgorithm.SelectedIndex == 1)
             {
                 TripleDESCryptoServiceProvider algorithm = new TripleDESCryptoServiceProvider();
                 // Guarda a chave
@@ -80,7 +80,7 @@ namespace ei_si_worksheet3
                         byte[] cipherText = memoryStream.ToArray();
 
                         // Transforma-mos o texto encriptado que esta em binario para Base64 para tirar error futuro de dados
-                        textBoxTextToEncrypt.Text = Convert.ToBase64String(cipherText);
+                        textboxEncryptedText.Text = Convert.ToBase64String(cipherText);
                     }
                 }
             } else
@@ -92,6 +92,71 @@ namespace ei_si_worksheet3
 
         private void ButtonDecrypt_Click(object sender, EventArgs e)
         {
+            // Altera plain text da text box para binario
+            byte[] plainText = Encoding.UTF8.GetBytes(textBoxTextToEncrypt.Text);
+            if (comboBoxAlgorithm.SelectedIndex == 0)
+            {
+                // Altera texto excriptado de base64 de volta para string
+                byte[] cipherText = Convert.FromBase64String(textboxEncryptedText.Text);
+
+                // Instanciar Algortimo
+                AesCryptoServiceProvider algorithm = new AesCryptoServiceProvider();
+
+                // Adiciona a chave e o iv da encriptacao ao algoritmo de desencriptar
+                algorithm.Key = Key;
+                algorithm.IV = IV;
+
+                // Criar stream de memoria
+                using (MemoryStream memStream = new MemoryStream(cipherText))
+                {
+                    // Criar stream para desencriptar em leitura
+                    using (CryptoStream cryptoStream = new CryptoStream(memStream, algorithm.CreateDecryptor(), CryptoStreamMode.Read))
+                    {
+                        // Cria um array de plain text do tamanho do texto cifrado
+                        byte[] text = new byte[cipherText.Length];
+                        // Guarda o tamanho dos bytes lidos no text
+                        int bytesRead = cryptoStream.Read(text, 0, text.Length);
+                        // Volta a organizar o array
+                        Array.Resize(ref text, bytesRead);
+                        // Escreve o texto decriptado na text box
+                        textBoxDecryptedText.Text = Encoding.UTF8.GetString(text);
+                    }
+                }
+            }
+            else if (comboBoxAlgorithm.SelectedIndex == 1)
+            {
+                // Altera texto excriptado de base64 de volta para string
+                byte[] cipherText = Convert.FromBase64String(textboxEncryptedText.Text);
+
+                // Instanciar Algortimo
+                DESCryptoServiceProvider algorithm = new DESCryptoServiceProvider();
+
+                // Adiciona a chave e o iv da encriptacao ao algoritmo de desencriptar
+                algorithm.Key = Key;
+                algorithm.IV = IV;               
+
+                // Criar stream de memoria
+                using (MemoryStream memStream = new MemoryStream(cipherText))
+                {
+                    // Criar stream para desencriptar em leitura
+                    using (CryptoStream cryptoStream = new CryptoStream(memStream, algorithm.CreateDecryptor(), CryptoStreamMode.Read))
+                    {
+                        // Cria um array de plain text do tamanho do texto cifrado
+                        byte[] text = new byte[cipherText.Length];
+                        // Guarda o tamanho dos bytes lidos no text
+                        int bytesRead = cryptoStream.Read(text, 0, text.Length);
+                        // Volta a organizar o array
+                        Array.Resize(ref text, bytesRead);
+                        // Escreve o texto decriptado na text box
+                        textBoxDecryptedText.Text = Encoding.UTF8.GetString(text);
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Select one of the algorithms");
+                return;
+            }
 
         }
 
