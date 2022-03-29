@@ -1,0 +1,11 @@
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\bin\Debug\ei.si-worksheet6-ex1.1.exe.config
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\bin\Debug\ei.si-worksheet6-ex1.1.exe
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\bin\Debug\ei.si-worksheet6-ex1.1.pdb
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.csproj.AssemblyReference.cache
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.csproj.SuggestedBindingRedirects.cache
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si.worksheet6.Form1.resources
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si.worksheet6.Properties.Resources.resources
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.csproj.GenerateResource.cache
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.csproj.CoreCompileInputs.cache
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.exe
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.pdb

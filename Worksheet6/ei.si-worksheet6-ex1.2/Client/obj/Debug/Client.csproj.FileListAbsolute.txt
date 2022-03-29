@@ -1,0 +1,11 @@
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\bin\Debug\Client.exe.config
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\bin\Debug\Client.exe
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\bin\Debug\Client.pdb
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\bin\Debug\ProtocolSI.dll
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\bin\Debug\SymmetricsSI.dll
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\obj\Debug\Client.exe
+C:\Development\SI\Worksheet6\ei.si-worksheet6-ex1.2\Client\obj\Debug\Client.pdb
