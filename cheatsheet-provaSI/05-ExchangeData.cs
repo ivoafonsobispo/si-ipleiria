@@ -1,0 +1,10 @@
+// CLIENT 	-- CLIENT -> SERVER
+
+
+// SERVER	-- CLIENT -> SERVER
+
+
+// SERVER	-- SERVER -> CLIENT
+
+
+// CLIENT 	-- SERVER -> CLIENT

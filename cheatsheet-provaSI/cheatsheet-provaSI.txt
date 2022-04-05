@@ -1,0 +1,46 @@
+// -- SHARE PUBLIC KEY
+
+// CLIENTE 	-- CLIENTE -> SERVER
+// SERVER	-- CLIENTE -> SERVER
+// CLIENTE 	-- SERVER -> CLIENTE
+// SERVER	-- SERVER -> CLIENTE
+
+
+// -- SHARE PRIVATE KEY
+
+// CLIENTE 	-- CLIENTE -> SERVER
+// SERVER	-- CLIENTE -> SERVER
+// CLIENTE 	-- SERVER -> CLIENTE
+// SERVER	-- SERVER -> CLIENTE
+
+
+// -- Exchange Data (Secure channel)
+
+// CLIENTE 	-- CLIENTE -> SERVER
+// SERVER	-- CLIENTE -> SERVER
+// CLIENTE 	-- SERVER -> CLIENTE
+// SERVER	-- SERVER -> CLIENTE
+
+
+// -- Exchange Digital Signature
+
+// CLIENTE 	-- CLIENTE -> SERVER
+// SERVER	-- CLIENTE -> SERVER
+// CLIENTE 	-- SERVER -> CLIENTE
+// SERVER	-- SERVER -> CLIENTE
+
+
+// -- DEFINICOES
+
+//SERVER
+// CLIENT
+
+
+// -- TCP LISTENER
+
+// SERVER
+// CLIENT
+
+
+Confidencialidade -> Algoritmo Simetrico
+Integridade, Aurenticação e Confidencialidade -> Algoritmo Assimetrico
