@@ -1,4 +1,4 @@
-// CLIENT 	-- CLIENT -> SERVER
+// ---- CLIENT 	-- CLIENT -> SERVER
 
 // Send key...
 msg = protocol.Make(ProtocolSICmdType.SECRET_KEY, rsaServer.Encrypt(aes.Key, true));
@@ -22,7 +22,7 @@ netStream.Read(protocol.Buffer, 0, protocol.Buffer.Length);
 Console.WriteLine("ok");
 
 
-// SERVER	-- CLIENT -> SERVER
+// ---- SERVER	-- CLIENT -> SERVER
 
 // Receive key
 netStream.Read(protocol.Buffer, 0, protocol.Buffer.Length);
@@ -45,7 +45,7 @@ msg = protocol.Make(ProtocolSICmdType.ACK);
 netStream.Write(msg, 0, msg.Length);
 
 
-// SERVER	-- SERVER -> CLIENT
+// ---- SERVER	-- SERVER -> CLIENT
 
 // Send key...
 msg = protocol.Make(ProtocolSICmdType.SECRET_KEY, rsaClient.Encrypt(aes.Key, true));
@@ -69,7 +69,7 @@ netStream.Read(protocol.Buffer, 0, protocol.Buffer.Length);
 Console.WriteLine("ok");
 
 
-// CLIENT 	-- SERVER -> CLIENT
+// ---- CLIENT 	-- SERVER -> CLIENT
 
 // Receive key
 netStream.Read(protocol.Buffer, 0, protocol.Buffer.Length);

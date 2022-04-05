@@ -1,4 +1,4 @@
-// CLIENT 	-- CLIENT -> SERVER
+// ---- CLIENT 	-- CLIENT -> SERVER
 
 // Send public key...
 byte[] msg = protocol.Make(ProtocolSICmdType.PUBLIC_KEY, rsaClient.ToXmlString(false));
@@ -7,7 +7,7 @@ netStream.Write(msg, 0, msg.Length);
 netStream.Read(protocol.Buffer, 0, protocol.Buffer.Length);
 rsaServer.FromXmlString(protocol.GetStringFromData());
 
-// SERVER	-- CLIENT -> SERVER
+// ---- SERVER	-- CLIENT -> SERVER
 
 // Receive client public key
 netStream.Read(protocol.Buffer, 0, protocol.Buffer.Length);
@@ -16,7 +16,7 @@ rsaClient.FromXmlString(protocol.GetStringFromData());
 byte[] msg = protocol.Make(ProtocolSICmdType.PUBLIC_KEY, rsaServer.ToXmlString(false));
 netStream.Write(msg, 0, msg.Length);
 
-// SERVER	-- SERVER -> CLIENT
+// ---- SERVER	-- SERVER -> CLIENT
 
 // Send public key...
 msg = protocol.Make(ProtocolSICmdType.PUBLIC_KEY, rsaServer.ToXmlString(false));
@@ -25,7 +25,7 @@ netStream.Write(msg, 0, msg.Length);
 netStream.Read(protocol.Buffer, 0, protocol.Buffer.Length);
 rsaClient.FromXmlString(protocol.GetStringFromData());
 
-// CLIENT 	-- SERVER -> CLIENT
+// ---- CLIENT 	-- SERVER -> CLIENT
 
 // Receive server public key
 netStream.Read(protocol.Buffer, 0, protocol.Buffer.Length);

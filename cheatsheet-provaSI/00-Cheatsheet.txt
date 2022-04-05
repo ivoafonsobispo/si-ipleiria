@@ -1,3 +1,7 @@
+Confidencialidade -> Algoritmo Simetrico
+Integridade e Aurenticação  -> Algoritmo Assimetrico
+Integridade, Aurenticação e Confidencialidade -> Algoritmo Assimetrico + Simetrico
+
 // -- SHARE PUBLIC KEY
 
 // CLIENTE 	-- CLIENTE -> SERVER
@@ -40,7 +44,3 @@
 
 // SERVER
 // CLIENT
-
-
-Confidencialidade -> Algoritmo Simetrico
-Integridade, Aurenticação e Confidencialidade -> Algoritmo Assimetrico
