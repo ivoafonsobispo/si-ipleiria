@@ -1,4 +1,4 @@
-// ---- SERVER
+    // ---- SERVER
 
 byte[] msg;
 IPEndPoint listenEndPoint;
@@ -55,7 +55,7 @@ finally
 
 Console.WriteLine(SEPARATOR);
 Console.Write("End: Press a key...");
-Console.ReadKey();>
+Console.ReadKey();
 
 
 // ---- CLIENT
