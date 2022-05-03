@@ -1,0 +1,10 @@
+C:\Users\rui.ferreira\Documents\Visual Studio 2015\Projects\ei.si-worksheet6-ex1.1\bin\Debug\ei.si-worksheet6-ex1.1.exe.config
+C:\Users\PC-Nuno-Casa\Dropbox\EI_SI\03 Pratica\06_Certificados_Digitais (.NET)\PROJETOS\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\bin\Debug\ei.si-worksheet6-ex1.1.exe.config
+C:\Users\PC-Nuno-Casa\Dropbox\EI_SI\03 Pratica\06_Certificados_Digitais (.NET)\PROJETOS\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\bin\Debug\ei.si-worksheet6-ex1.1.exe
+C:\Users\PC-Nuno-Casa\Dropbox\EI_SI\03 Pratica\06_Certificados_Digitais (.NET)\PROJETOS\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\bin\Debug\ei.si-worksheet6-ex1.1.pdb
+C:\Users\PC-Nuno-Casa\Dropbox\EI_SI\03 Pratica\06_Certificados_Digitais (.NET)\PROJETOS\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.csprojResolveAssemblyReference.cache
+C:\Users\PC-Nuno-Casa\Dropbox\EI_SI\03 Pratica\06_Certificados_Digitais (.NET)\PROJETOS\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si_worksheet6_ex1._1.Form1.resources
+C:\Users\PC-Nuno-Casa\Dropbox\EI_SI\03 Pratica\06_Certificados_Digitais (.NET)\PROJETOS\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si_worksheet6_ex1._1.Properties.Resources.resources
+C:\Users\PC-Nuno-Casa\Dropbox\EI_SI\03 Pratica\06_Certificados_Digitais (.NET)\PROJETOS\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.csproj.GenerateResource.Cache
+C:\Users\PC-Nuno-Casa\Dropbox\EI_SI\03 Pratica\06_Certificados_Digitais (.NET)\PROJETOS\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.exe
+C:\Users\PC-Nuno-Casa\Dropbox\EI_SI\03 Pratica\06_Certificados_Digitais (.NET)\PROJETOS\ei.si-worksheet6-ex1.1\ei.si-worksheet6-ex1.1\obj\Debug\ei.si-worksheet6-ex1.1.pdb

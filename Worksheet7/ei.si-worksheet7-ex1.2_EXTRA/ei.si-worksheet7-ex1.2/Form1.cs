@@ -16,7 +16,9 @@ namespace ei.si_worksheet7
     {
         // The digital certificates should be copied to ./bin/debug directory
         const string fileCertPFX = @"estg.ei.si.a.pfx";
-        const string fileCertCER = @"estg.ei.si.a.cer";
+        const string fileCertCER = @"estg.ei.si.a.cer"; 
+        const string fileCertPFX_B = @"estg.ei.si.b.pfx";
+        const string fileCertCER_B = @"estg.ei.si.b.cer";
         static readonly string pwdfileCertPFX = Properties.Settings.Default.PwdCertPFX;
 
         private byte[] tempDigitalSignature = null;
@@ -256,68 +258,60 @@ namespace ei.si_worksheet7
 
         private void ButtonEncryptAndSign_Click(object sender, EventArgs e)
         {
-            using (X509Certificate2 certificate = new X509Certificate2(fileCertPFX, pwdfileCertPFX))
+            using (X509Certificate2 certificateA = new X509Certificate2(fileCertPFX, pwdfileCertPFX))
+            using (X509Certificate2 certificateB = new X509Certificate2(fileCertCER_B))
             {
-                ShowCertificate(certificate);
+                ShowCertificate(certificateA);
 
                 byte[] data = Encoding.UTF8.GetBytes(textBoxInfo.Text);
 
                 ContentInfo contentInfo = new ContentInfo(data);
 
-                CmsRecipient recipient = new CmsRecipient(certificate);
+                CmsRecipient recipient = new CmsRecipient(certificateB);
                 EnvelopedCms enveloped = new EnvelopedCms(contentInfo);
 
                 enveloped.Encrypt(recipient); // multiple
 
-                byte[] pksc7EncryptedData = enveloped.Encode();
+                ContentInfo contentInfoSignature = new ContentInfo(enveloped.Encode());
 
-                this.tempEnvelope = pksc7EncryptedData;
+                CmsSigner signer = new CmsSigner(certificateA);
 
-                MessageBox.Show("Data has been encrypted");
 
-                CmsSigner signer = new CmsSigner(certificate);
-
-                contentInfo = new ContentInfo(pksc7EncryptedData);
-
-                SignedCms signedCms = new SignedCms(contentInfo, false); // false -> with data (default)
+                SignedCms signedCms = new SignedCms(contentInfoSignature, false); // false -> with data (default)
 
                 signedCms.ComputeSignature(signer);
 
-                byte[] pkcs7Signature = signedCms.Encode();
-
-                this.tempDigitalSignature = pkcs7Signature;
-                MessageBox.Show("Signed!");
+                this.tempDigitalSignature = signedCms.Encode();
+                MessageBox.Show("DONE!");
 
             }
         }
 
         private void ButtonVerifyAndDecrypt_Click(object sender, EventArgs e)
         {
-            SignedCms signedCms = new SignedCms();
-
-            signedCms.Decode(this.tempDigitalSignature);
-
-            try
+            using (X509Certificate2 certificateB = new X509Certificate2(fileCertPFX_B, pwdfileCertPFX))
             {
-                signedCms.CheckSignature(false); // false signature + cert | true signature
-                MessageBox.Show("Valid");
+                SignedCms signedCms = new SignedCms();
+                signedCms.Decode(this.tempDigitalSignature);
 
-                using (X509Certificate2 certificate = new X509Certificate2(fileCertPFX, pwdfileCertPFX))
+                try
                 {
-
-                    EnvelopedCms enveloped = new EnvelopedCms();
-                    enveloped.Decode(this.tempEnvelope);
-                    enveloped.Decrypt(new X509Certificate2Collection(certificate)); // Personal Certificate Store
-
-                    MessageBox.Show(Encoding.UTF8.GetString(enveloped.ContentInfo.Content));
+                    signedCms.CheckSignature(false); // false: signature + cert | true: signature
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Invalid");
-                MessageBox.Show(ex.Message);
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Invalid");
+                    MessageBox.Show(ex.Message);
+                    return;
+                }
 
+                EnvelopedCms enveloped = new EnvelopedCms();
+                enveloped.Decode(signedCms.ContentInfo.Content);
+                enveloped.Decrypt(new X509Certificate2Collection(certificateB)); // Personal Certificate Store
+
+                MessageBox.Show(Encoding.UTF8.GetString(enveloped.ContentInfo.Content));
             }
+
         }
 
         private void textBoxInfo_TextChanged(object sender, EventArgs e)
