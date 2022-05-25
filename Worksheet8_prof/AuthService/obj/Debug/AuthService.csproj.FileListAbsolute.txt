@@ -1,0 +1,14 @@
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\bin\AuthService.dll.config
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\bin\AuthService.dll
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\bin\AuthService.pdb
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\obj\Debug\AuthService.csprojAssemblyReference.cache
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\obj\Debug\AuthService.csproj.CoreCompileInputs.cache
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\obj\Debug\AuthService.dll
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\obj\Debug\AuthService.pdb
+C:\development\si-ipleiria\Worksheet8_prof\AuthService\bin\AuthService.dll.config
+C:\development\si-ipleiria\Worksheet8_prof\AuthService\bin\AuthService.dll
+C:\development\si-ipleiria\Worksheet8_prof\AuthService\bin\AuthService.pdb
+C:\development\si-ipleiria\Worksheet8_prof\AuthService\obj\Debug\AuthService.csproj.AssemblyReference.cache
+C:\development\si-ipleiria\Worksheet8_prof\AuthService\obj\Debug\AuthService.csproj.CoreCompileInputs.cache
+C:\development\si-ipleiria\Worksheet8_prof\AuthService\obj\Debug\AuthService.dll
+C:\development\si-ipleiria\Worksheet8_prof\AuthService\obj\Debug\AuthService.pdb

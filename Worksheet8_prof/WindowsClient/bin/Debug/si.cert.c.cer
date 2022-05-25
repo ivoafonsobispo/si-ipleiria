@@ -1,0 +1,97 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            3b:53:b8:1c:65:2c:a1:33:54:7b:53:eb:1f:b1:7a:e7
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=PT, O=IPL, OU=ESTG DEI EI SI, CN=SI Intermediate CA
+        Validity
+            Not Before: May 22 15:41:47 2022 GMT
+            Not After : May 22 15:41:47 2023 GMT
+        Subject: C=PT, O=IPL, OU=ESTG DEI EI SI, CN=si.cert.c
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:d4:c1:3c:15:9c:04:e6:a2:e5:46:3c:55:9f:79:
+                    f6:32:5f:59:17:1a:75:17:61:89:37:03:f8:33:c9:
+                    da:5c:37:0d:19:bc:6d:41:9c:71:99:6b:94:a4:89:
+                    0f:a9:77:21:f1:ad:1e:70:4b:5c:4d:a7:ce:8f:99:
+                    15:6e:0e:f0:5c:80:f5:f7:a3:cd:1f:96:9e:8b:87:
+                    00:66:98:c1:0e:e3:2d:c8:8c:07:d3:82:56:ca:c6:
+                    95:0a:f8:0d:ce:4e:69:fb:fb:df:87:09:8a:a4:7b:
+                    13:3f:bb:64:6e:57:b0:d0:29:43:01:06:9d:b7:ae:
+                    87:0d:bc:b9:31:15:5f:3b:6f:89:77:4f:a0:b3:4d:
+                    c2:e2:5b:5c:dd:72:78:fd:db:2c:5e:76:c5:7e:96:
+                    f8:d3:79:31:36:5e:97:fb:f8:c6:1b:97:2b:e2:f5:
+                    da:b5:18:80:d6:13:11:02:d7:59:d6:71:82:3f:81:
+                    86:28:3e:0e:11:9b:08:20:14:b0:7c:75:48:c4:d5:
+                    6d:80:ad:c6:28:e9:b5:02:f9:5b:c8:ca:46:60:7e:
+                    37:7d:a8:b5:5a:58:ca:e5:8e:01:48:d1:1a:a3:a4:
+                    27:bb:10:64:63:ad:06:86:8a:5e:4e:67:0b:d9:61:
+                    6e:9d:51:41:ff:b2:36:96:bf:04:90:7d:77:f5:ff:
+                    ff:53
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Authority Information Access: 
+                CA Issuers - URI:http://172.22.21.85.sslip.io/intermediate-ca/crt
+                OCSP - URI:http://172.22.21.85.sslip.io/intermediate-ca/oscp
+
+            X509v3 Authority Key Identifier: 
+                keyid:01:BB:E3:FB:2D:F5:BB:29:C1:5C:9E:02:76:BA:9E:C6:CE:95:FF:03
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://172.22.21.85.sslip.io/intermediate-ca/crl
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, TLS Web Server Authentication
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Subject Key Identifier: 
+                A9:F2:DC:FF:52:38:C1:CE:49:84:2F:BB:34:25:FC:37:FC:71:76:3E
+    Signature Algorithm: sha256WithRSAEncryption
+         c2:29:20:c2:ae:77:82:8c:2e:18:84:ad:e9:7c:27:26:5e:96:
+         f6:bd:10:ec:ba:f4:b4:64:52:54:27:81:0d:36:61:a4:11:8d:
+         d1:c4:1d:6b:5a:c1:a5:33:d8:81:28:fd:34:45:fa:66:14:62:
+         8a:c2:44:3a:6f:79:15:d9:50:4b:60:26:ab:92:c2:91:7f:df:
+         84:77:1d:81:1d:7f:57:af:43:f1:3f:eb:2f:5e:6c:78:40:64:
+         fe:19:eb:d7:97:b1:c2:44:3c:bb:3e:93:d3:c3:1e:df:86:2d:
+         3c:82:70:87:50:9d:77:02:62:c6:35:0e:0c:b9:39:f9:02:20:
+         f1:2e:1c:0c:b4:f1:d9:0a:16:14:06:68:e7:9b:9b:ba:81:ea:
+         b2:38:1f:84:56:3d:76:85:58:9f:ac:c8:90:a9:5f:7b:81:3e:
+         a5:36:e9:7d:b7:9f:b3:14:85:fb:b6:45:6b:eb:3a:3d:2e:89:
+         93:27:76:fc:42:ac:eb:f2:77:82:7a:9e:b8:a5:8d:b0:b5:56:
+         c8:a6:42:36:24:ab:c8:06:64:ca:28:aa:43:27:2c:87:65:6c:
+         d2:e3:f9:da:2d:58:d5:6f:48:65:28:2d:39:c9:fc:d4:66:55:
+         f5:2b:67:14:ca:37:de:4d:7f:46:dc:76:eb:41:ca:2e:a3:8d:
+         c1:71:cb:a4
+-----BEGIN CERTIFICATE-----
+MIIEdzCCA1+gAwIBAgIQO1O4HGUsoTNUe1PrH7F65zANBgkqhkiG9w0BAQsFADBR
+MQswCQYDVQQGEwJQVDEMMAoGA1UECgwDSVBMMRcwFQYDVQQLDA5FU1RHIERFSSBF
+SSBTSTEbMBkGA1UEAwwSU0kgSW50ZXJtZWRpYXRlIENBMB4XDTIyMDUyMjE1NDE0
+N1oXDTIzMDUyMjE1NDE0N1owSDELMAkGA1UEBhMCUFQxDDAKBgNVBAoMA0lQTDEX
+MBUGA1UECwwORVNURyBERUkgRUkgU0kxEjAQBgNVBAMMCXNpLmNlcnQuYzCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTBPBWcBOai5UY8VZ959jJfWRca
+dRdhiTcD+DPJ2lw3DRm8bUGccZlrlKSJD6l3IfGtHnBLXE2nzo+ZFW4O8FyA9fej
+zR+WnouHAGaYwQ7jLciMB9OCVsrGlQr4Dc5Oafv734cJiqR7Ez+7ZG5XsNApQwEG
+nbeuhw28uTEVXztviXdPoLNNwuJbXN1yeP3bLF52xX6W+NN5MTZel/v4xhuXK+L1
+2rUYgNYTEQLXWdZxgj+Bhig+DhGbCCAUsHx1SMTVbYCtxijptQL5W8jKRmB+N32o
+tVpYyuWOAUjRGqOkJ7sQZGOtBoaKXk5nC9lhbp1RQf+yNpa/BJB9d/X//1MCAwEA
+AaOCAVIwggFOMIGLBggrBgEFBQcBAQR/MH0wPAYIKwYBBQUHMAKGMGh0dHA6Ly8x
+NzIuMjIuMjEuODUuc3NsaXAuaW8vaW50ZXJtZWRpYXRlLWNhL2NydDA9BggrBgEF
+BQcwAYYxaHR0cDovLzE3Mi4yMi4yMS44NS5zc2xpcC5pby9pbnRlcm1lZGlhdGUt
+Y2Evb3NjcDAfBgNVHSMEGDAWgBQBu+P7LfW7KcFcngJ2up7GzpX/AzAMBgNVHRMB
+Af8EAjAAMEEGA1UdHwQ6MDgwNqA0oDKGMGh0dHA6Ly8xNzIuMjIuMjEuODUuc3Ns
+aXAuaW8vaW50ZXJtZWRpYXRlLWNhL2NybDAdBgNVHSUEFjAUBggrBgEFBQcDAgYI
+KwYBBQUHAwEwDgYDVR0PAQH/BAQDAgWgMB0GA1UdDgQWBBSp8tz/UjjBzkmEL7s0
+Jfw3/HF2PjANBgkqhkiG9w0BAQsFAAOCAQEAwikgwq53gowuGISt6XwnJl6W9r0Q
+7Lr0tGRSVCeBDTZhpBGN0cQda1rBpTPYgSj9NEX6ZhRiisJEOm95FdlQS2Amq5LC
+kX/fhHcdgR1/V69D8T/rL15seEBk/hnr15exwkQ8uz6T08Me34YtPIJwh1CddwJi
+xjUODLk5+QIg8S4cDLTx2QoWFAZo55ubuoHqsjgfhFY9doVYn6zIkKlfe4E+pTbp
+fbefsxSF+7ZFa+s6PS6Jkyd2/EKs6/J3gnqeuKWNsLVWyKZCNiSryAZkyiiqQycs
+h2Vs0uP52i1Y1W9IZSgtOcn81GZV9StnFMo33k1/Rtx260HKLqONwXHLpA==
+-----END CERTIFICATE-----

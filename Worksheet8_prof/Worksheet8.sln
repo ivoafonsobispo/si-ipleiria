@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "AuthService\AuthService.csproj", "{78212751-E4EA-4AE7-99B2-449D5048A186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsClient", "WindowsClient\WindowsClient.csproj", "{6DD71C52-4260-49BE-BB91-F65113512E0F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{78212751-E4EA-4AE7-99B2-449D5048A186} = {78212751-E4EA-4AE7-99B2-449D5048A186}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78212751-E4EA-4AE7-99B2-449D5048A186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78212751-E4EA-4AE7-99B2-449D5048A186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78212751-E4EA-4AE7-99B2-449D5048A186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78212751-E4EA-4AE7-99B2-449D5048A186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD71C52-4260-49BE-BB91-F65113512E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD71C52-4260-49BE-BB91-F65113512E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD71C52-4260-49BE-BB91-F65113512E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD71C52-4260-49BE-BB91-F65113512E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A39A1584-25B0-40CA-8DC1-7B62BA3872E1}
+	EndGlobalSection
+EndGlobal
