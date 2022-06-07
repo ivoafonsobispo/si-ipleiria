@@ -227,7 +227,7 @@ namespace WindowsClient
             using (X509Certificate2 serverCertificate = new X509Certificate2("si.cert.c.cer"))
             using (AuthServiceClient client = new AuthServiceClient())
             {
-                #region Encrypet With Service Certificate
+                #region Encrypte With Service Certificate
                 // Vou buscar os dados
                 ContentInfo encryptedContentInfo = new ContentInfo(Encoding.UTF8.GetBytes(password));
 

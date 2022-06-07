@@ -1,0 +1,32 @@
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\bin\AuthService.dll.config
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\bin\AuthService.dll
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\bin\AuthService.pdb
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\obj\Debug\AuthService.csprojAssemblyReference.cache
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\obj\Debug\AuthService.csproj.CoreCompileInputs.cache
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\obj\Debug\AuthService.dll
+C:\Users\marisa\Desktop\update_fichas\08_Authentication_and_Authorization\PROJETOS_ALUNOS\ei.si-worksheet8\AuthService\obj\Debug\AuthService.pdb
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\bin\AuthService.dll.config
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\bin\AuthService.dll
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\bin\AuthService.pdb
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\obj\Debug\AuthService.csproj.AssemblyReference.cache
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\obj\Debug\AuthService.csproj.CoreCompileInputs.cache
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\obj\Debug\AuthService.dll
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\obj\Debug\AuthService.pdb
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha 8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\bin\AuthService.dll.config
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha 8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\bin\AuthService.dll
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha 8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\bin\AuthService.pdb
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha 8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\obj\Debug\AuthService.csproj.AssemblyReference.cache
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha 8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\obj\Debug\AuthService.csproj.CoreCompileInputs.cache
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha 8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\obj\Debug\AuthService.dll
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha 8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\obj\Debug\AuthService.pdb
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha 8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\bin\estg.ei.si.b.pfx
+D:\UCs_4th_semester\Segurança da Informação\PL\Ficha 8\08 - Authentication and Authorization-20220505\ei.si-worksheet8\ei.si-worksheet8\AuthService\bin\si.cert.d.pfx
+C:\development\si-ipleiria\Worksheet9\AuthService\bin\estg.ei.si.b.pfx
+C:\development\si-ipleiria\Worksheet9\AuthService\bin\si.cert.d.pfx
+C:\development\si-ipleiria\Worksheet9\AuthService\bin\AuthService.dll.config
+C:\development\si-ipleiria\Worksheet9\AuthService\bin\AuthService.dll
+C:\development\si-ipleiria\Worksheet9\AuthService\bin\AuthService.pdb
+C:\development\si-ipleiria\Worksheet9\AuthService\obj\Debug\AuthService.csproj.AssemblyReference.cache
+C:\development\si-ipleiria\Worksheet9\AuthService\obj\Debug\AuthService.csproj.CoreCompileInputs.cache
+C:\development\si-ipleiria\Worksheet9\AuthService\obj\Debug\AuthService.dll
+C:\development\si-ipleiria\Worksheet9\AuthService\obj\Debug\AuthService.pdb

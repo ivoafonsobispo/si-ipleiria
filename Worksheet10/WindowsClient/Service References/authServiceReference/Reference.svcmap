@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="dc7b76ac-c149-4880-b476-58b093692930" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1871/BankService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BankService.xsd" MetadataType="Schema" ID="8dc4bcfc-3a88-4487-b113-f55793e9ebf5" SourceId="1" SourceUrl="http://localhost:1871/BankService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BankService.wsdl" MetadataType="Wsdl" ID="812f3a47-13e6-413a-85a9-54240ba988d8" SourceId="1" SourceUrl="http://localhost:1871/BankService.svc?wsdl" />
+    <MetadataFile FileName="BankService1.xsd" MetadataType="Schema" ID="5788f29e-021f-48e6-acc0-17808bae1a84" SourceId="1" SourceUrl="http://localhost:1871/BankService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BankService2.xsd" MetadataType="Schema" ID="6de4979a-5378-437e-b66c-df1a4accd2b5" SourceId="1" SourceUrl="http://localhost:1871/BankService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BankService.disco" MetadataType="Disco" ID="dfd739b4-ee5a-4434-bede-819ae346cf92" SourceId="1" SourceUrl="http://localhost:1871/BankService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
